@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/amanduke/just-tech-news/issues"
   },
-  "homepage": "https://github.com/amanduke/just-tech-news#readme"
+  "homepage": "https://github.com/amanduke/just-tech-news#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
 }
