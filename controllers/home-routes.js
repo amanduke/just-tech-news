@@ -4,6 +4,7 @@ const { Post, User, Comment } = require('../models');
 const posts = dbPostData.map(post => post.get({ plain: true }));
 
 
+
 router.get('/', (req, res) => {
     Post.findAll({
       attributes: [
@@ -40,7 +41,7 @@ router.get('/', (req, res) => {
   });
 
   router.get('/login', (req, res) => {
-    res.render('login');
-  });
+  res.render('login');
+});
 
 module.exports = router;
